@@ -1,0 +1,103 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* {
+    font-family: 'Spoqa Han Sans Neo';
+}
+
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+.clear-fix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.cont-login {
+    width: 350px;
+    margin: 250px auto;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 18px 15px 17px;
+}
+
+.cont-login .txt-login {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 16px;
+}
+
+.cont-login .link-login {
+    display: block;
+    color: #FFFFFF;
+    background-color: #711BFF;
+    font-weight: 500;
+    line-height: 15px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+    padding: 10px 0 12px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.link-login .img-logo {
+    width: 64px;
+    height: 18px;
+    margin-right: 4px;
+    vertical-align: bottom;
+}
+
+.img-find, .img-join {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    float: left;
+}
+
+.cont-login .cont-find {
+    float: left;
+
+}
+
+.cont-login .cont-join {
+    float: right;
+
+}
+
+.cont-find [class^="link"] {
+    float: left;
+    color: #767676;
+    line-height: 16px;
+    
+}
+
+.cont-join [class$="join"] {
+    float: left;
+    color: #767676;
+    line-height: 16px; 
+
+}
+
+.link-id::after {
+    float: right;
+    display: block;
+    content: '';
+    width: 1px;
+    height: 12px;
+    background-color: #767676;
+    margin: 2px 4px 0;
+} 
